@@ -47,6 +47,13 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.retrofit)
     implementation(libs.androidx.retrofit.gson)
+    
+    // Encryption and Background Processing
+    implementation(libs.androidx.work.runtime)
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.androidx.security.crypto)
+    
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
